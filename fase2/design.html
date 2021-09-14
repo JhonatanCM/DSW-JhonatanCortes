@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fase 2 - Design</title>
+</head>
+<style>
+    .header {
+        padding: 30px;
+        text-align: center;
+        background: #2196f3;
+        color: white;
+    }
+
+    .sidebar {
+        flex: 20%;
+        background-color: #f1f1f1;
+        padding: 20px;
+    }
+
+    .main {
+        flex: 70%;
+        background-color: white;
+        padding: 20px 60px;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .footer {
+        padding: 20px;
+        text-align: center;
+        background: #ddd;
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
+
+<body style="font-family: sans-serif;">
+    <!------------Header------------>
+    <header class="header">
+        <h1>Hojas de Estilo en Cascada CSS, Frameworks CSS</h1>
+    </header>
+
+    <!------------Menú------------>
+    <div class="row">
+        <nav class="sidebar">
+            <ul>
+                <a href="#">
+                    <li><strong>Inicio</strong></li>
+                </a>
+                <li><strong>Temas</strong>
+                    <ul>
+                        <a href="#tema1">
+                            <li>Tema 1</li>
+                        </a>
+                        <a href="#tema2">
+                            <li>Tema 2</li>
+                        </a>
+                    </ul>
+                </li>
+                <li><strong>Recursos Digitales</strong>
+                    <ul>
+                        <a href="#tema1">
+                            <li>Recurso 1</li>
+                        </a>
+                        <a href="#recurso2">
+                            <li>Recurso 2</li>
+                        </a>
+                    </ul>
+                </li>
+                <li><strong>Aprendizaje</strong>
+                    <ul>
+                        <a href="#tema1">
+                            <li>Actividad 1</li>
+                        </a>
+                        <a href="#recurso2">
+                            <li>Actividad 2</li>
+                        </a>
+                    </ul>
+                </li>
+                <li><strong>Acerca de</strong>
+                    <ul>
+                        <a href="#autor">
+                            <li>Jhonatan Cortes</li>
+                        </a>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <main class="main">
+            <!------------Section------------>
+            <section>
+                <h3>Propósito del sitio</h3>
+                <P>En este sitio se exponen de manera resumida los conceptos de Hojas de Estilo en Cascada CSS y
+                    Frameworks CSS,
+                    con el fin de esclarecer su propósito y uso.</P>
+            </section>
+            <hr>
+            <!------------Article------------>
+            <article>
+                <h3 id="tema1">Hojas de Estilo en Cascada CSS</h3>
+                <img src="img/style.jpg" alt="Imagen de código CSS">
+                <p>CSS Corresponde a las siglas en inglés de “Cascading Style Sheets”. Una hoja de estilos es una serie
+                    de códigos
+                    que definen el aspecto o presentación de los elementos de una página. Siendo así el término
+                    “cascada”, se refiere a cómo
+                    se encuentran distribuidos los elementos en la hoja de estilo, desde el componente primario a los
+                    detalles
+                    más específicos. Esta técnica consiste en separar el diseño del contenido, de manera que las
+                    indicaciones para conformar el diseño se agrupan en una hoja de estilo o archivo que está fuera del
+                    contenido del documento de la página HTML.</p>
+                <h3 id="tema2">Frameworks CSS</h3>
+                <img src="img/bootstrap.jpg" alt="Logo bootstrap">
+                <p>Un Framework es una estructura base utilizada como punto de partida para elaborar un proyecto con
+                    objetivos específicos, por lo tanto un framework de CSS es una biblioteca de estilos genéricos que
+                    puede ser usada para implementar diseños web.
+                    Aportan una serie de utilidades que pueden ser aprovechadas frecuentemente en los distintos diseños.
+                </p>
+                <hr>
+                <h3 id="recurso2">Mockup</h3>
+                <img src="img/design.jpg" alt="Mockup del sitio a realizar">
+                <hr>
+                <h3>Referencias Bibliograficas</h3>
+                <p>Poveda, P. E. M. (2014, 2 abril). Repositorio Universidad T&eacute;cnica de Ambato: &ldquo;El
+                    maquetado a base de scripts y hojas de estilo en cascada (CSS) y su incidencia en la
+                    optimizaci&oacute;n de un sitio web&rdquo;. repositorio.uta.edu.ec. <a
+                        href="https://repositorio.uta.edu.ec/jspui/handle/123456789/7146"
+                        target="_blank">https://repositorio.uta.edu.ec/jspui/handle/123456789/7146</a></p>
+                <p>Rodr&iacute;guez, R. A. (2018, 25 junio). An&aacute;lisis de frameworks web adaptativos basados en
+                    HTML5. sedici.unlp.edu.ar. <a
+                        href="http://sedici.unlp.edu.ar/handle/10915/67599">http://sedici.unlp.edu.ar/handle/10915/67599</a>
+                </p>
+            </article>
+        </main>
+    </div>
+
+    <!------------Footer------------>
+    <footer class="footer" id="autor">
+        <p style="text-align: center;"><strong>Autor:</strong> Jhonatan Cortes<br> <strong>Correo:</strong> <a
+                href="mailto:JhonatanCM07@gmail.com">JhonatanCM07@gmail.com</a><br><strong>Skype:</strong> Stevanmeza
+            <strong><br>Fecha de actualizaci&oacute;n:</strong> 11/09/2021
+        </p>
+    </footer>
+
+</body>
+</html>
