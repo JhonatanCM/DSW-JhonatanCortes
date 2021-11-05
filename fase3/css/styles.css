@@ -110,3 +110,12 @@ li.li_dos:hover {
     border-top: 3px solid #2196f3;
     border-bottom: 3px solid #ff0049;
 }
+.a-textarea {
+    resize: none;
+    border: 1px solid #2196f3;
+    border-radius: 4px;
+ }
+ .divcenter {
+    display: flex;
+    justify-content: center;
+}
