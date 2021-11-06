@@ -20,7 +20,9 @@ section{
     border: 1px solid #2c2c2c;
 }
 aside{
-    display: grid;
+    display: block;
+    text-align: center;
+    height: 1015px;
     background-color: rgb(255 255 255 / 16%);
     grid-column: 4/5;
     justify-content: center;
@@ -110,12 +112,25 @@ li.li_dos:hover {
     border-top: 3px solid #2196f3;
     border-bottom: 3px solid #ff0049;
 }
-.a-textarea {
-    resize: none;
+.divcode {
+    font-size: 13px;
+    font-family: system-ui;
+    background: #2196f326;
+    padding: 5px;
+    border-radius: 3px;
     border: 1px solid #2196f3;
-    border-radius: 4px;
- }
+}
  .divcenter {
     display: flex;
     justify-content: center;
+}
+audio {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #2196f3;
+    border-radius: 50px;
+}
+p.pcenter {
+    text-align-last: center;
 }

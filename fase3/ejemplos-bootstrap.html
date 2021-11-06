@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplos de bootstrap</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo_principal">Hojas de Estilo en Cascada CSS, Frameworks CSS</h1>
+    </header>
+    <nav>
+        <ul>
+            <a href="index.html">
+                <li class="inicio">
+                    <strong>Inicio</strong>
+                </li>
+            </a>
+            <li class="a_temas"><strong>Temas</strong>
+                <ul class="b_temas">
+                    <a href="selectores-basicos-css.html">
+                        <li class="li_dos">Selectores básicos CSS</li>
+                    </a>
+                    <a href="framework-bootstrap.html">
+                        <li class="li_dos">Framework bootstrap</li>
+                    </a>
+                </ul>
+            </li>
+            <li class="a_recursos" style="border-top: 3px solid #2196f3;border-radius: 5px;"><strong>Recursos digitales</strong>
+                <ul class="b_recuros">
+                    <a href="ejemplo-selectores-css.html">
+                        <li class="li_dos">Ejemplos selectores CSS</li>
+                    </a>
+                    <a href="ejemplos-bootstrap.html">
+                        <li class="li_dos">Ejemplos de bootstrap</li>
+                    </a>
+                </ul>
+            </li>
+            <li class="a_aprendizaje"><strong>Aprendizaje</strong>
+                <ul class="b_aprendizaje">
+                    <a href="#">
+                        <li class="li_dos">Página 1</li>
+                    </a>
+                    <a href="#">
+                        <li class="li_dos">Página 2</li>
+                    </a>
+                </ul>
+            </li>
+            <li class="autor">
+                <strong><a href="autor.html">Autor</a></strong>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <article>
+                <h3>Framework Bootstrap</h3>
+                <p class="pcenter">¿Qué es bootstrap y para qué sirve?</p>
+                <audio controls>
+                    <source src="audios/que-es-bootstrap.mp3" type="audio/mpeg">
+                    Su navegador no es compatible con el elemento de audio.
+                  </audio>
+                <p class="pcenter">¿Qué haremos?</p>
+                <audio controls>
+                    <source src="audios/ejemplos-bootstrap.mp3" type="audio/mpeg">
+                    Su navegador no es compatible con el elemento de audio.
+                  </audio>
+                  <h4>Ejemplos</h4>
+                  <p>Con tan solo llamar a las siguientes librerías de bootstrap desde nuestro head, ya podremos utilizar cualquiera de las ventajas que este nos ofrece. Veamos cómo, a continuación:</p>
+                <div class="divcode">
+                    <div><span style="color: #008000;">&lt;!-- Latest compiled and minified CSS --&gt;</span></div>
+                    <div>&lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"&gt;</div>
+                    <div><span style="color: #008000;">&lt;!-- jQuery library --&gt;</span></div>
+                    <div>&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"&gt;&lt;/script&gt;</div>
+                    <div><span style="color: #008000;">&lt;!-- Popper JS --&gt;</span></div>
+                    <div>&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"&gt;&lt;/script&gt;</div>
+                    <div><span style="color: #008000;">&lt;!-- Latest compiled JavaScript --&gt;</span></div>
+                    <div>&lt;script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"&gt;&lt;/script&gt;</div>
+                </div>
+                <p style="color:#2196f3"><strong>BOTONES</strong></p>
+                <p>Podríamos agregar cualquiera de los botones a continuación, solo modificando el class atributo por el correspondiente al nombre del botón.</p>
+                <div class="divcode">
+                    <p><span class="tagnamecolor"><span class="tagcolor">&lt;</span>button<span class="attributecolor">&nbsp;type<span
+                                    class="attributevaluecolor">="button"</span>&nbsp;<span style="color: #ff0000;">class</span><span
+                                    class="attributevaluecolor" style="color: #0000ff;">="btn btn-primary"</span></span><span
+                                class="tagcolor">&gt;</span></span>Primary<span class="tagnamecolor"><span
+                                class="tagcolor">&lt;</span>/button<span class="tagcolor">&gt;</span></span></p>
+                </div>
+                <p style="color:#2196f3"><strong>RESULTADO:</strong></p>
+                <img src="img/botones-bootstrap.jpg" alt="Botones Bootstrap">
+                <p style="color:#2196f3"><strong>ALERTAS</strong></p>
+                <p>También llamando al class atributo correspondiente podremos agregar alertas.</p>
+                <div class="divcode">
+                    <p><span class="tagnamecolor"><span class="tagcolor">&lt;</span>div<span class="attributecolor">&nbsp;<span
+                                    style="color: #ff0000;">class</span><span class="attributevaluecolor" style="color: #0000ff;">="alert
+                                    alert-success"</span></span><span class="tagcolor">&gt;</span></span><br />&nbsp;&nbsp;<span
+                            class="tagnamecolor"><span class="tagcolor">&lt;</span>strong<span
+                                class="tagcolor">&gt;</span></span>Success!<span class="tagnamecolor"><span
+                                class="tagcolor">&lt;</span>/strong<span class="tagcolor">&gt;</span></span>&nbsp;Indicates a successful or
+                        positive action.<br /><span class="tagnamecolor"><span class="tagcolor">&lt;</span>/div<span
+                                class="tagcolor">&gt;</span></span></p>
+                </div>
+                <p style="color:#2196f3"><strong>RESULTADO:</strong></p>
+                <img src="img/alertas-bootstrap.jpg" alt="Alertas Bootstrap">
+                <p style="color:#2196f3"><strong>MODAL</strong></p>
+                <p>Entre otras características también nos ofrece la posibilidad de insertar modal o pop-up.</p>
+                <img src="img/modal-bootstrap.jpg" alt="Modal Bootstrap">
+                <p style="color:#2196f3"><strong>BARRA DE NAVEGACIÓN</strong></p>
+                <p>Por último, podemos resaltar que nos permite agregar barras de navegación y muchos otros complementos más, que no podría abarcar en este post.</p>
+                <p style="color:#2196f3"><strong>RESULTADO:</strong></p>
+                <img src="img/barra-navegacion.jpg" alt="Barras de navegación">
+            </article>
+            <article>
+                <hr>
+                <h3>Referencias Bibliograficas</h3>
+                <p>W3schools. (s. f.). Bootstrap 4 Tutorial. W3schools.Com. Recuperado 5 de noviembre de 2021, de <a href="https://www.w3schools.com/bootstrap4/default.asp">https://www.w3schools.com/bootstrap4/default.asp</a></p>
+                <p>A., D. (2021, 28 julio). ¿Qué es Bootstrap? - Una guía para principiantes. Tutoriales Hostinger. Recuperado 5 de noviembre de 2021, de <a href="https://www.hostinger.co/tutoriales/que-es-bootstrap">https://www.hostinger.co/tutoriales/que-es-bootstrap</a></p>
+            </article>
+        </section>
+        <aside>
+            <h3>Página de Facebook UNAD</h3>
+            <iframe
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD%2F&tabs=timeline&width=340&height=950&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                width="340" height="950" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                allowfullscreen="true"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </aside>
+    </main>
+    <footer>
+        <p class="info_footer"><strong>Autor:</strong> Jhonatan Cortes<br> <strong>Correo:</strong> <a
+                href="mailto:JhonatanCM07@gmail.com">JhonatanCM07@gmail.com</a><br><strong>Skype:</strong> Stevanmeza
+            <strong><br>Fecha de actualización:</strong> 14/10/2021
+        </p>
+    </footer>
+</body>
+</html>
