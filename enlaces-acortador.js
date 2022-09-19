@@ -29,6 +29,14 @@ function actualizarReloj() {
 }
 // -----------------------------------------------------------------
 
+// Enlaces ---------------------------------------------------------  
+const links = [
+"https://www.google.com/1",   // #0 //
+"https://www.google.com/2",   // #1 //
+"https://www.google.com/3"    // #2 //
+];
+// -----------------------------------------------------------------
+
 // BlockAdBlock ----------------------------------------------------
 let fakeAd = document.createElement("div");
   fakeAd.className = 
@@ -50,11 +58,3 @@ let fakeAd = document.createElement("div");
       document.write('<div id="alertblock" style="background: #f436591c;width: 100%;height: auto;padding: 15px 20px 15px 20px;border-radius: 5px;"><p style="text-align: justify;">Sabemos que los anuncios no son muy agradables, pero es la manera de mantener este tipo de sitios funcionando. Por favor desactiva tu <span style="color: #ff0000;"><strong>AdBlock</strong></span> y recarga esta p&aacute;gina.</p></div>');
     }
  // -----------------------------------------------------------------
-
-// Enlaces ---------------------------------------------------------  
-const links = [
-"https://www.google.com/1",   // #0 //
-"https://www.google.com/2",   // #1 //
-"https://www.google.com/3"    // #2 //
-];
-// -----------------------------------------------------------------
