@@ -53,8 +53,7 @@ let fakeAd = document.createElement("div");
     if(x_width){
       document.getElementById("alertblock").style.display = "none";
     }else{
-      document.getElementById("btn_acort").style.display = "none";
-      document.getElementById("countdown").style.display = "none";
+      document.getElementById("divcont").style.display = "none";
       document.write('<div id="alertblock" style="background: #f436591c;width: 100%;height: auto;padding: 15px 20px 15px 20px;border-radius: 5px;"><p style="text-align: justify;">Sabemos que los anuncios no son muy agradables, pero es la manera de mantener este tipo de sitios funcionando. Por favor desactiva tu <span style="color: #ff0000;"><strong>AdBlock</strong></span> y recarga esta p&aacute;gina.</p></div>');
     }
  // -----------------------------------------------------------------
