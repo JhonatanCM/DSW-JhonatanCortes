@@ -1,5 +1,1 @@
-registro1 = "enlace 1";
-registro2 = "enlace 2";
-registro3 = "enlace 3";
-registro4 = "enlace 4";
-registro5 = "enlace 5";
+"enlace 1", "enlace 2", "enlace 3"
