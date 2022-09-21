@@ -1,3 +1,12 @@
+<!------------------- Contador -------------------->
+<div id="divcont" style="display: none;text-align: center;">
+	<span id="countdown"></span>
+	<a id="btn_acort" href="javascript:void(0)">Continuar</a>
+</div>
+<!------------------- Fin Contador -------------------->
+
+<!------------------- Script -------------------->
+<script type='text/javascript'>
 // Obteniendo el valor de la URL -----------------------------------
 const urlSearchParams = new URLSearchParams(window.location.search);
 const id = urlSearchParams.get("id");
@@ -57,3 +66,5 @@ let fakeAd = document.createElement("div");
       document.write('<div id="alertblock" style="background: #f436591c;width: 100%;height: auto;padding: 15px 20px 15px 20px;border-radius: 5px;"><p style="text-align: justify;">Sabemos que los anuncios no son muy agradables, pero es la manera de mantener este tipo de sitios funcionando. Por favor desactiva tu <span style="color: #ff0000;"><strong>AdBlock</strong></span> y recarga esta p&aacute;gina.</p></div>');
     }
  // -----------------------------------------------------------------
+</script>
+<!------------------- Fin Script -------------------->
